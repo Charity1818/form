@@ -1,0 +1,42 @@
+body{
+    color: white;
+    background-image: url("images/black.jpg");
+    height: 100vh;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+    background-color: whitesmoke;
+    padding: 20px 50px;
+    width: 40%;
+}
+h1{
+    color: #000000; 
+}
+
+/* label[for="firstname"]{
+    color: #000000;
+} */
+/* label{
+    color: #000000;
+    font-weight: bold;
+    margin: 10px; 
+}
+    */
+input{
+    width: 60%;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+}
+.move{
+    text-align: left;
+    margin-left: 7rem;
+}
+::placeholder{
+    color: blue;
+}
+label{
+    color: black;
+}
